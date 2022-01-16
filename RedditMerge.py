@@ -1,11 +1,11 @@
 import praw
 
 reddit = praw.Reddit(
-    client_id="pgXw268OBsjmAQ",
-    client_secret="XRZIHO0U23CplRr9ASjFkS9__vLp3w",
-    password="1limabeaN",
+    client_id="",
+    client_secret="",
+    password="",
     user_agent="Reddit WebScraping",
-    username="thecooldudie3",
+    username="",
 )
 
 latest_posts = reddit.subreddit("SPACs").new(limit=1)
